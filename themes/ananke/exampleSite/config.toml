@@ -1,25 +1,25 @@
-title = "Kei Nishihara's Homepage"
-baseURL = "https://haranychan.github.io"
-languageCode = "ja"
-theme = "ananke"
+title = "Notre-Dame de Paris"
+baseURL = "https://example.com"
+languageCode = "en-us"
+theme = "gohugo-theme-ananke"
+themesDir = "../.."
 resourceDir = "../resources"
 
-DefaultContentLanguage = "ja"
+DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
 [languages]
-  [languages.ja]
-    # title = "西原 慧 の ホームページ"
-    weight = 1
-    contentDir = "content/ja"
   [languages.en]
-    # title = "Kei Nishihara's Homepage"
-    weight = 2
+    title = "My blog"
+    weight = 1
     contentDir = "content/en"
-
+  [languages.fr]
+    title = "Mon blogue"
+    weight = 2
+    contentDir = "content/fr"
 
 [sitemap]
   changefreq = "monthly"
@@ -29,9 +29,9 @@ enableRobotsTXT = true
 [params]
   favicon = ""
   site_logo = ""
-  description = ""
+  description = "The last theme you'll ever need. Maybe."
   facebook = ""
-  twitter = "" # https://twitter.com/GoHugoIO
+  twitter = "https://twitter.com/GoHugoIO"
   instagram = ""
   youtube = ""
   github = ""
@@ -42,6 +42,6 @@ enableRobotsTXT = true
   stackoverflow = ""
   rss = ""
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-dark-blue"
+  background_color_class = "bg-black"
   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number = 2
