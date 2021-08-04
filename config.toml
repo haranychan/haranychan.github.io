@@ -12,14 +12,11 @@ enableRobotsTXT = true
 
 [languages]
   [languages.ja]
-    # title = "西原 慧 の ホームページ"
     weight = 1
     contentDir = "content/ja"
   [languages.en]
-    # title = "Kei Nishihara's Homepage"
     weight = 2
     contentDir = "content/en"
-
 
 [sitemap]
   changefreq = "monthly"

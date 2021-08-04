@@ -1,5 +1,5 @@
 ---
-title: "Ananke: Un thème pour Hugo"
+title: "西原 慧 のホームページ"
 featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 description: "Le dernier thème dont vous aurez besoin. Peut-être"
 ---
